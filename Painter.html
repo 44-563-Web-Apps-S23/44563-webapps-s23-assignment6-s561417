@@ -15,8 +15,17 @@
     <input type ="text" id="form1_nick" name="form1_nick" autofocus> <br>
 
     <input type="button" onclick="resolveForm()" value="Get values from form">
-</form>
+</form><br>
 
+<form>
+    <label for="hiddenpaintername">The Hidden Painter Name </label>
+    <input type ="password" value="Monet" id="hiddenpaintername"> <br>
+
+    <label for="guesspaintername">Guess the Painter</label>
+    <input type ="text" id="guesspaintername"> <br>
+
+    <input type="button" onclick="checkPainter()" value="Check the guess">
+</form>
 
 <p id="result">This text will be replaced </p>
 
